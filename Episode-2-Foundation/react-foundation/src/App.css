@@ -81,6 +81,15 @@
   flex-wrap: wrap;
 }
 
+.filter-btn{
+  margin: 20px ;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: #ff6f00;
+  color: #fff !important;
+  border: white 1px solid;
+  cursor: pointer;
+}
 .restaurant-card {
   width: 320px;
   border-radius: 14px;

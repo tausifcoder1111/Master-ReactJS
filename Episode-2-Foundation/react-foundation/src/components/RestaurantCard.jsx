@@ -8,7 +8,7 @@ import React from "react";
  *
  */
 const RestaurantCard = ({data}) => {
-    // Destructuring 
+    // Destructuring  
     const {name,rating,image,cuisines,costForTwo,distance,location,offer1,offer2} = data;
   return (
     <>

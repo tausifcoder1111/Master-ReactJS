@@ -22,7 +22,6 @@
 
 
 import Header from "./components/Header"
-import RestaurantCard from "./components/RestaurantCard"
 import './App.css'
 import Body from "./components/Body"
 function App() {

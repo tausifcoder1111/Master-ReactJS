@@ -4,7 +4,7 @@ const restaurants = [
     name: "Anand Foods",
     image:
       "https://images.unsplash.com/photo-1550547660-d9450f859349",
-    rating: 4.6,
+    rating: 3.6,
     cuisines: "Continental • Italian",
     costForTwo: "₹600 for two",
     distance: "1.1 km",
@@ -18,7 +18,7 @@ const restaurants = [
     name: "Spice Junction",
     image:
       "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
-    rating: 4.3,
+    rating: 3.3,
     cuisines: "North Indian • Chinese",
     costForTwo: "₹500 for two",
     distance: "2.4 km",
@@ -46,7 +46,7 @@ const restaurants = [
     name: "Pizza Corner",
     image:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
-    rating: 4.5,
+    rating: 2.5,
     cuisines: "Pizza • Italian",
     costForTwo: "₹700 for two",
     distance: "2.0 km",
