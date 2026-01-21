@@ -167,23 +167,34 @@
 // })
 
 
-// Another Example of callback
-function printStr(str, cb) {
-  setTimeout(() => {
-    console.log(str);
-    cb();
-  }, Math.floor(Math.random() * 100) + 1);
+// // Another Example of callback
+// function printStr(str, cb) {
+//   setTimeout(() => {
+//     console.log(str);
+//     cb();
+//   }, Math.floor(Math.random() * 100) + 1);
+// }
+
+// function printAll() {
+//   printStr('A', () => {
+//     printStr('B', () => {
+//       printStr('C', () => {});
+//     });
+//   });
+// }
+// printAll(); // A B C // in order
+
+
+
+const x = [];
+x[4] = 1;
+
+console.log(x.length)
+
+for(let i=0; i<x.length; i++){
+  console.log("hi")
 }
 
-function printAll() {
-  printStr('A', () => {
-    printStr('B', () => {
-      printStr('C', () => {});
-    });
-  });
-}
-printAll(); // A B C // in order
-
-
-
-
+x.forEach((i)=>{
+  console.log("Hi")
+})

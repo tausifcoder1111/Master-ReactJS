@@ -1,0 +1,7 @@
+Frontend: React + Tailwind
+Backend: Node.js + Express / Fastify
+AI: AI APIs + LangChain.js
+DB: PostgreSQL / MongoDB
+Vector DB: Pinecone / Weaviate
+Deployment: Vercel / Railway
+ 
