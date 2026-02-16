@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Execution Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>🧠 JavaScript Execution Visualizer (Teachable)</h1>
+
+<button id="startBtn">▶ Start Execution</button>
+
+<div id="notification" class="notification"></div>
+
+<div class="container">
+  <div class="panel">
+    <h2>📚 Call Stack</h2>
+    <ul id="callStack"></ul>
+  </div>
+
+  <div class="panel">
+    <h2>🧠 Memory Phase</h2>
+    <pre id="memory"></pre>
+  </div>
+
+  <div class="panel">
+    <h2>⚙️ Execution Phase</h2>
+    <pre id="execution"></pre>
+  </div>
+</div>
+
+<div class="panel takeaways">
+  <h2>📌 Key Takeaways</h2>
+  <ul>
+    <li>JavaScript creates Execution Contexts</li>
+    <li>Memory Phase runs before Execution Phase</li>
+    <li>Functions create new Execution Contexts</li>
+    <li>Call Stack follows LIFO order</li>
+  </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
