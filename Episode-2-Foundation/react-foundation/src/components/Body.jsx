@@ -12,7 +12,7 @@ const Body = () => {
     const json = await data.json();
     console.log("JSON", json);
   };
-
+ 
   useEffect(() => {
     fetchData();
   }, []);
