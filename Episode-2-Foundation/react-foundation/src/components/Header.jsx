@@ -1,5 +1,13 @@
 import Logo from "../assets/logo.jpg";
+import { useState, useEffect,  } from "react";
 const Header = () => {
+  const[btnNameReact, setBtnNameReact] = useState("Login")
+
+  console.log("Header Render")
+  useEffect(()=>{
+    console.log("useEffect called")
+  },[])
+
   return (
     <>
       <div className="header">
@@ -12,6 +20,14 @@ const Header = () => {
             <li>About Us</li>
             <li>Contact Us</li>
             <li className="cart">Cart</li>
+            <button
+           className="filter-btn"
+            onClick={()=>{
+              btnNameReact === "Login" ? setBtnNameReact("Logout") : setBtnNameReact("Login")
+            }}
+            >
+              {btnNameReact}
+            </button>
           </ul>
         </div>
       </div>
