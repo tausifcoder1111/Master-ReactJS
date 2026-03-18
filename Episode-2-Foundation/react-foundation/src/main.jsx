@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact.jsx";
 import ErrorComponent from "./components/ErrorComponent.jsx";
 import Body from "./components/Body.jsx";
+import RestaurantMenu from "./components/RestaurantMenu.jsx";
 
 // React Element == Object == JSX
 // const heading = <h1>JSX Heading</h1>
@@ -29,6 +30,10 @@ const appRouter = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path : "/restaurants/:resId",
+        element : <RestaurantMenu/>
+      }
     ],
     errorElement: <ErrorComponent />,
   },
