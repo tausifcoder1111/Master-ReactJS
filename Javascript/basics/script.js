@@ -47,17 +47,17 @@
 
 
 
-// function makeCounter(){
-//     var i =0;
-//     return function (){
-//         console.log(++i)
-//     }
-// }
+function makeCounter(){
+    var i =0;
+    return function (){
+        console.log(++i)
+    }
+}
 
-// var counter = makeCounter();
-// counter();
-// counter();
+var counter = makeCounter();
+counter();
+counter();
 
-// var counter2 = makeCounter();
-// counter2();
-// counter2();
+var counter2 = makeCounter();
+counter2();
+counter2();
